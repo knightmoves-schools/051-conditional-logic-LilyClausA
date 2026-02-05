@@ -2,16 +2,14 @@ function validateAge(oldEnough){
   let logic = true;
   if (logic){
     document.getElementById("result").innerHTML = 'old enough';
-
-   if (oldEnough = true){
-    return "old enough";
-   }
-
- 
   }
 }
 
-
+function validateAge(oldEnugh){
+   if (oldEnough === true){
+    return "old enough";
+   }
+}
 
  //     ✕ should create a function named validateAge that takes a parameter named oldEnough and returns 'old enough' only if oldEnough is true (1283 ms)
  //     ✓ should not return 'old enough' from the validateAge function if oldEnough is false (138 ms)
